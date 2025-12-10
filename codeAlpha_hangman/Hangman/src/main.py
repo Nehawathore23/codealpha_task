@@ -1,8 +1,9 @@
-# main.py
+
 from game import Hangman
 
 def main():
     print("===== HANGMAN GAME =====")
+    print("Welcome to this game!Now start guessing ur word")
 
     game = Hangman()
 

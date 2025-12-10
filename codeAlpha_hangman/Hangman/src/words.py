@@ -1,3 +1,2 @@
-# words.py
-# Predefined list of words for Hangman
-WORDS = ["python", "hangman", "coding", "program", "developer"]
+
+WORDS = ["python", "hangman", "coding", "program", "developer","engineer","profession","spftware"]

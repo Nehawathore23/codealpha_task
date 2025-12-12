@@ -9,7 +9,10 @@ stock_prices = {
     "MSFT": 330,
     "AMZN": 150
 }
-
+print("📌 Available Stocks:")
+for stock, price in stock_prices.items():
+    print(f"   {stock} → ${price}")
+print()
 portfolio = {}
 total_investment = 0
 

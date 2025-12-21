@@ -3,9 +3,11 @@ from game import Hangman
 
 def main():
     print("===== HANGMAN GAME =====")
-    print("Welcome to this game!Now start guessing ur word")
+    print("Welcome to this game! Now start guessing your word")
 
     game = Hangman()
+
+    print("🧩 Clue:", game.get_clue())
 
     while True:
         print("\nWord:", game.display_word())

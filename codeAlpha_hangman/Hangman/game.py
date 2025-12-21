@@ -1,13 +1,16 @@
-# game.py
+
 import random
 from words import WORDS
 
 class Hangman:
     def __init__(self):
-        self.word = random.choice(WORDS)
+        self.word, self.clue = random.choice(list(WORDS.items()))
         self.guessed_letters = []
         self.wrong_attempts = 0
         self.max_attempts = 6
+
+    def get_clue(self):
+        return self.clue
 
     def display_word(self):
         display = ""
